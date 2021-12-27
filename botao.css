@@ -1,4 +1,12 @@
-#player {
-    object-position: center;
-    margin-left: 40%;
+#rodape {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(251, 248, 248);
+}
+
+#botaocadastra { 
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
 }
