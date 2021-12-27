@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+
+      <a href="javascript:void(0);"
+            onclick="goYtSubscribeButton('GoogleDevelopers')">Click here for a button!</a>
+      Display button here: <div id="yt-button-container-go"></div>
+      <script>
+        function goYtSubscribeButton() {
+          // ID of element containing <div class="g-ytsubscribe"> element(s)
+          // The container element already contains the button elements when this
+          // function is called.
+          var containerId = "sample-container";
+          gapi.ytsubscribe.go(containerId);
+        }
+      </script>
+    
+      <b>Link</b>
+      <a href="javascript:void(0);"
+            onclick="goYtSubscribeButton('GoogleDevelopers')">Click here for a button</a>
+    
+      <b>Display button here:</b>
+      <div id="yt-button-container-go" style="display-inline"></div>
+
+  </body>
+</html>
