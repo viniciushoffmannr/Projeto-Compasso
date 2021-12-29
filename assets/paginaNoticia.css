@@ -11,7 +11,7 @@
 #imagemNoticia {
     width: 600px;
     box-shadow: 10px 10px 10px black;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 #player {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     width: 600px;
 }
