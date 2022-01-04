@@ -41,4 +41,3 @@
 + https://prog-bolsas-api.herokuapp.com/
 + https://randomapi.com/api/6de6abfedb24f889e0b5f675edc50deb?fmt=raw&sole
 
->>>>>>> 83c7c897db575705dbc962165bbcf3170cedc212
