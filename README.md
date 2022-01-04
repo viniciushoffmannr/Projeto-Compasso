@@ -1,5 +1,4 @@
 ### Compasso NEWS
-<<<<<<< HEAD
 
 ## Descrição do projeto
 
