@@ -4,9 +4,8 @@ function enviaAPI(event) {
   const userEmail = data.get('email')
   const userSenha = data.get('senha')
   const dataNascimento = data.get('nascimento')
-  const userCPF = data.get('cpf')
   let url = 'https://prog-bolsas-api.herokuapp.com/'
-  var xhr = new XMLHttpRequest()
+  let xhr = new XMLHttpRequest()
 
   xhr.open('POST', url, true)
   xhr.setRequestHeader('Accept', 'application/json')
@@ -22,7 +21,6 @@ function enviaAPI(event) {
     email: userEmail,
     senha: userSenha,
     nascimento: dataNascimento,
-    cpf: userCPF,
   }
   xhr.send(JSON.stringify(formatted))
 }
